@@ -1,0 +1,636 @@
+fileFormatVersion: 2
+guid: 1caf73d633903f04f8b5149df9d060ed
+timeCreated: 1487871463
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Hero_sprite_sheet_0
+    21300002: Hero_sprite_sheet_1
+    21300004: Hero_sprite_sheet_2
+    21300006: Hero_sprite_sheet_3
+    21300008: Hero_sprite_sheet_4
+    21300010: Hero_sprite_sheet_5
+    21300012: Hero_sprite_sheet_6
+    21300014: Hero_sprite_sheet_7
+    21300016: Hero_sprite_sheet_8
+    21300018: Hero_sprite_sheet_9
+    21300020: Hero_sprite_sheet_10
+    21300022: Hero_sprite_sheet_11
+    21300024: Hero_sprite_sheet_12
+    21300026: Hero_sprite_sheet_13
+    21300028: Hero_sprite_sheet_14
+    21300030: Hero_sprite_sheet_15
+    21300032: Hero_sprite_sheet_16
+    21300034: Hero_sprite_sheet_17
+    21300036: Hero_sprite_sheet_18
+    21300038: Hero_sprite_sheet_19
+    21300040: Hero_sprite_sheet_20
+    21300042: Hero_sprite_sheet_21
+    21300044: Hero_sprite_sheet_22
+    21300046: Hero_sprite_sheet_23
+    21300048: Hero_sprite_sheet_24
+    21300050: Hero_sprite_sheet_25
+    21300052: Hero_sprite_sheet_26
+    21300054: Hero_sprite_sheet_27
+    21300056: Hero_sprite_sheet_28
+    21300058: Hero_sprite_sheet_29
+    21300060: Hero_sprite_sheet_30
+    21300062: Hero_sprite_sheet_31
+    21300064: Hero_sprite_sheet_32
+    21300066: Hero_sprite_sheet_33
+    21300068: Hero_sprite_sheet_34
+    21300070: Hero_sprite_sheet_35
+    21300072: Hero_sprite_sheet_36
+    21300074: Hero_sprite_sheet_37
+    21300076: Hero_sprite_sheet_38
+    21300078: Hero_sprite_sheet_39
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 2807
+        width: 310
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 2778
+        width: 399
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 2796
+        width: 487
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 2799
+        width: 345
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 2842
+        width: 324
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 2842
+        width: 405
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2186
+        width: 428
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2197
+        width: 475
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 2187
+        width: 496
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 2231
+        width: 324
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 2261
+        width: 332
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2763
+        y: 2348
+        width: 404
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1586
+        width: 495
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1586
+        width: 495
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1586
+        width: 496
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1694
+        width: 324
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 1733
+        width: 337
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 1819
+        width: 371
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1002
+        width: 319
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 999
+        width: 314
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1039
+        width: 325
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1039
+        width: 324
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1039
+        width: 324
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 1235
+        width: 313
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 814
+        width: 314
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 1302
+        width: 366
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 497
+        width: 348
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 509
+        width: 375
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 535
+        width: 360
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 509
+        width: 368
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 489
+        width: 353
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 504
+        width: 342
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 313
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 313
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 0
+        width: 314
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 0
+        width: 313
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 0
+        width: 314
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 0
+        width: 314
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 0
+        width: 312
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hero_sprite_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 0
+        width: 314
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
