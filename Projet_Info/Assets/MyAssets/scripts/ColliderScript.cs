@@ -7,11 +7,13 @@ public class ColliderScript : MonoBehaviour
 {
 	public int timer;
 	public Animator animator;
+    public int scene;
 	// Use this for initialization
 	void Start () 
 	{
 		animator = GetComponent<Animator>(); //récupère les animations et leur enchainement
-	}
+        scene = SceneManager.GetActiveScene().buildIndex;
+    }
 	
 	// Update is called once per frame
 	void Update () 
@@ -33,6 +35,6 @@ public class ColliderScript : MonoBehaviour
     	Debug.Log("Avant l'attente");
     	yield return new WaitForSeconds(1);
     	Debug.Log("Après l'attente");
-    	SceneManager.LoadScene("Niveau1");
+    	SceneManager.LoadScene(scene);
     }
 }
