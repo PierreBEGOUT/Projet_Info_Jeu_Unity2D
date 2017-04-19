@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 public class LevelEnd : MonoBehaviour {
 
     public int timer; //utile pour attendre avant le prochain lvl
-    public int scene;
+    public Scene scene;
 
     // Use this for initialization
     void Start()
     {
-        scene = SceneManager.GetActiveScene().buildIndex; //Récupère les infos de la scene actuelle
+        scene = SceneManager.GetActiveScene(); //Récupère les infos de la scene actuelle
     }
 
     // Update is called once per frame
@@ -33,6 +33,6 @@ public class LevelEnd : MonoBehaviour {
         Debug.Log("Avant l'attente");
         yield return new WaitForSeconds(1);
         Debug.Log("Après l'attente");
-        SceneManager.LoadScene(scene+1); //On lance la scene suivante
+        SceneManager.LoadScene(scene.buildIndex+1); //On lance la scene suivante
     }
 }
