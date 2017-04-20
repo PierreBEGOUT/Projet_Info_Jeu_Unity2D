@@ -11,3 +11,9 @@ EditorBuildSettings:
     path: Assets/MyAssets/scenes/Niveau2.unity
   - enabled: 1
     path: Assets/MyAssets/scenes/Niveau3.unity
+  - enabled: 1
+    path: Assets/MyAssets/scenes/Niveau4.unity
+  - enabled: 1
+    path: Assets/MyAssets/scenes/Niveau5.unity
+  - enabled: 1
+    path: Assets/MyAssets/scenes/Niveau6.unity
