@@ -6,6 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/MyAssets/scenes/Menu.unity
+  - enabled: 1
+    path: Assets/MyAssets/scenes/MenuCampagne.unity
+  - enabled: 1
     path: Assets/MyAssets/scenes/Niveau1.unity
   - enabled: 1
     path: Assets/MyAssets/scenes/Niveau2.unity
@@ -17,3 +21,11 @@ EditorBuildSettings:
     path: Assets/MyAssets/scenes/Niveau5.unity
   - enabled: 1
     path: Assets/MyAssets/scenes/Niveau6.unity
+  - enabled: 1
+    path: Assets/MyAssets/scenes/Niveau 7.unity
+  - enabled: 1
+    path: Assets/MyAssets/scenes/Niveau8.unity
+  - enabled: 1
+    path: Assets/MyAssets/scenes/Niveau9.unity
+  - enabled: 1
+    path: Assets/MyAssets/scenes/End.unity

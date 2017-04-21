@@ -214,6 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af09166acef22844ea02439353d21d0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: 0
 --- !u!114 &114528181925882564
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -228,6 +229,8 @@ MonoBehaviour:
   timer: 0
   animator: {fileID: 0}
   scene: 0
+  nbmorts: 0
+  guy: {fileID: 132571394207961984, guid: cf0d1fbca33074a4e953837ef41b465c, type: 2}
 --- !u!212 &212921268201637732
 SpriteRenderer:
   m_ObjectHideFlags: 1

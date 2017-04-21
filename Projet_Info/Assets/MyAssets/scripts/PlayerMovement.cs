@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour {
 
     public float speed = 0.10f;       //Vitesse de course
@@ -44,6 +44,10 @@ public class PlayerMovement : MonoBehaviour {
         {
             rb.AddForce(jp);                                            //La variable y du vecteur correspond à notre hauteur
         }
+		if (Input.GetKeyDown (KeyCode.Escape)) {
+			SceneManager.LoadScene (0);
+		}
+
         transform.position += dp;                                       //On change la position du personnage par notre vecteur
 	}
 }
