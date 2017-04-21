@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Lancement : MonoBehaviour {
 
-	public string levelsuivant="Quitter";
 	public int scene;
 	public GUIText guy;
 	// Use this for initialization
