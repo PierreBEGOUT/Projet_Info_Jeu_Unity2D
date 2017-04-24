@@ -156,7 +156,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8adb61f65d6b49409c33fd22e631cde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelsuivant: Quitter
   scene: 0
   guy: {fileID: 644437256}
 --- !u!114 &644437259
@@ -459,7 +458,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8adb61f65d6b49409c33fd22e631cde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelsuivant: Quitter
   scene: 0
   guy: {fileID: 1173550220}
 --- !u!1 &1929998592
@@ -527,7 +525,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8adb61f65d6b49409c33fd22e631cde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelsuivant: Quitter
   scene: 0
   guy: {fileID: 1929998593}
 --- !u!114 &1929998596

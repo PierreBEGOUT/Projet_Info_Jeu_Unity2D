@@ -49,6 +49,11 @@ public class Animation_Perso : MonoBehaviour
         {
         	animator.SetInteger("Animation", 1);
         }
+		else if((Input.GetKey(KeyCode.UpArrow))&&Input.GetKey(KeyCode.LeftArrow))
+		{
+			trans.eulerAngles = new Vector3 (0, -180, 0);
+			animator.SetInteger("Animation", 1);
+		}
         else
             animator.SetInteger("Animation", 0);						//Sinon on joue l'animation de respiration
     }
