@@ -105,7 +105,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4536106466077372, guid: 2e5bd4a686d991c4f9b825537ba93586, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 9.15
+      value: 9.05
       objectReference: {fileID: 0}
     - target: {fileID: 4536106466077372, guid: 2e5bd4a686d991c4f9b825537ba93586, type: 2}
       propertyPath: m_LocalPosition.y
@@ -360,6 +360,16 @@ Prefab:
         type: 2}
       propertyPath: nbmorts
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114083537828716024, guid: 41c432c5a5d62d44ba718c8d49e7df6d,
+        type: 2}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 114083537828716024, guid: 41c432c5a5d62d44ba718c8d49e7df6d,
+        type: 2}
+      propertyPath: collisionMask.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41c432c5a5d62d44ba718c8d49e7df6d, type: 2}
@@ -761,7 +771,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4084437841002006, guid: 368987336cbe0e940bf6550113f7d06a, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -9.17
+      value: -8.96
       objectReference: {fileID: 0}
     - target: {fileID: 4084437841002006, guid: 368987336cbe0e940bf6550113f7d06a, type: 2}
       propertyPath: m_LocalPosition.y

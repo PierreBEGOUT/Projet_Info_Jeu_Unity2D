@@ -11,7 +11,8 @@ public class CommonAction : MonoBehaviour {
 	public GUIText guy;
 		
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		
 	}
 

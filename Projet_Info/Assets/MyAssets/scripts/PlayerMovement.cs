@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class PlayerMovement : MonoBehaviour {
 
-    public float speed = 0.15f;       //Vitesse de course
+    public float speed = 0.05f;       //Vitesse de course
     public float thrust = 0.4f;              //Impulsion de saut
     private Rigidbody2D rb;           //physique du personnage
     public LayerMask collisionMask;   //Mask de collision avec les plateformes
     private bool onGround;            //Boolean de test
-
 
     void OnGround() //Permet de tester si le joueur est sur une plateforme
     {
@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Escape)) {
 			SceneManager.LoadScene (0);
 		}
-
         transform.position += dp;                                       //On change la position du personnage par notre vecteur
+
 	}
 }

@@ -1103,6 +1103,11 @@ Prefab:
       propertyPath: guy
       value: 
       objectReference: {fileID: 1376343696}
+    - target: {fileID: 114083537828716024, guid: 41c432c5a5d62d44ba718c8d49e7df6d,
+        type: 2}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41c432c5a5d62d44ba718c8d49e7df6d, type: 2}
   m_IsPrefabParent: 0

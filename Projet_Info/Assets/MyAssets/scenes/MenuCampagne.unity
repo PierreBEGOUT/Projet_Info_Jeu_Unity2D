@@ -264,6 +264,7 @@ MonoBehaviour:
   tailleEntrer: 65
   tailleSortie: 60
   guy: {fileID: 769034965}
+  SonMenuPrincipal: {fileID: 0}
 --- !u!132 &769034965
 GUIText:
   m_ObjectHideFlags: 0
@@ -322,6 +323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 951226759}
   - component: {fileID: 951226758}
+  - component: {fileID: 951226760}
   m_Layer: 0
   m_Name: jungle-vegetation-fond
   m_TagString: Untagged
@@ -377,6 +379,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &951226760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 951226757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33fadcd65c45f0449a9dbe22b337a06b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SonMenuPrincipal: {fileID: 1983569338}
 --- !u!1 &1020680038
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,6 +425,7 @@ MonoBehaviour:
   tailleEntrer: 65
   tailleSortie: 60
   guy: {fileID: 1020680040}
+  SonMenuPrincipal: {fileID: 0}
 --- !u!132 &1020680040
 GUIText:
   m_ObjectHideFlags: 0
@@ -494,6 +509,7 @@ MonoBehaviour:
   tailleEntrer: 65
   tailleSortie: 60
   guy: {fileID: 1253292401}
+  SonMenuPrincipal: {fileID: 0}
 --- !u!132 &1253292401
 GUIText:
   m_ObjectHideFlags: 0
@@ -577,6 +593,7 @@ MonoBehaviour:
   tailleEntrer: 50
   tailleSortie: 45
   guy: {fileID: 1775477061}
+  SonMenuPrincipal: {fileID: 0}
 --- !u!132 &1775477061
 GUIText:
   m_ObjectHideFlags: 0
@@ -626,3 +643,112 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scene: 0
   guy: {fileID: 1775477061}
+--- !u!1 &1983569337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1983569339}
+  - component: {fileID: 1983569338}
+  m_Layer: 0
+  m_Name: ThemSong
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1983569338
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1983569337}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c50033015f6984e43b521c6239e9b276, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!4 &1983569339
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1983569337}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.9520264, y: 0.5411601, z: -1.1461668}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
