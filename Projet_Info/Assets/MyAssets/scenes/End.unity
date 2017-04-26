@@ -265,7 +265,7 @@ GUIText:
   m_GameObject: {fileID: 697574865}
   m_Enabled: 1
   serializedVersion: 3
-  m_Text: "Bravo ! Vous avez termin\xE9 avec : "
+  m_Text: 'Bravo ! Vous avez termine avec : '
   m_Anchor: 4
   m_Alignment: 1
   m_PixelOffset: {x: 0, y: 0}

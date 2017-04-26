@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2050dbb05a6df340bdff009748e4028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.11
+  speed: 0.13
   thrust: 0.4
   collisionMask:
     serializedVersion: 2

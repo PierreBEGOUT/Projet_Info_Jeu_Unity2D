@@ -13,6 +13,6 @@ public class EndScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		guy.text = "Bravo !" +
-			" Vous avez terminé avec : " + PlayerPrefs.GetInt("nbmorts ") +" morts";
+			" Vous avez termine avec : " + PlayerPrefs.GetInt("nbmorts ") +" morts";
 	}
 }

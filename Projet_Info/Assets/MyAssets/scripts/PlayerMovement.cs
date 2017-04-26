@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour {
 
-    public float speed = 0.11f;       //Vitesse de course
+    public float speed = 0.15f;       //Vitesse de course
     public float thrust = 0.4f;              //Impulsion de saut
     private Rigidbody2D rb;           //physique du personnage
     public LayerMask collisionMask;   //Mask de collision avec les plateformes
